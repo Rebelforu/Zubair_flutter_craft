@@ -1,7 +1,5 @@
-
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,13 +47,6 @@ const Navbar = () => {
             <button onClick={() => scrollToSection('contact')} className="font-medium hover:text-brand-purple transition-colors">Contact</button>
           </div>
 
-          {/* Resume Button - Desktop */}
-          <div className="hidden md:block">
-            <Button className="bg-brand-purple hover:bg-brand-purple/90">
-              <a href="#" download className="text-white">Download Resume</a>
-            </Button>
-          </div>
-
           {/* Mobile Menu Button */}
           <button className="md:hidden" onClick={toggleMenu}>
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -73,10 +64,6 @@ const Navbar = () => {
             <button onClick={() => scrollToSection('projects')} className="font-medium hover:text-brand-purple transition-colors py-2">Projects</button>
             <button onClick={() => scrollToSection('testimonials')} className="font-medium hover:text-brand-purple transition-colors py-2">Testimonials</button>
             <button onClick={() => scrollToSection('contact')} className="font-medium hover:text-brand-purple transition-colors py-2">Contact</button>
-            
-            <Button className="w-full bg-brand-purple hover:bg-brand-purple/90">
-              <a href="#" download className="text-white w-full text-center">Download Resume</a>
-            </Button>
           </div>
         </div>
       )}

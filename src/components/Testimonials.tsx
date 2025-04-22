@@ -6,22 +6,22 @@ const testimonials = [
   {
     id: 1,
     quote: "Zubair delivered an amazing app that exceeded my expectations. His attention to detail and ability to translate my ideas into a functional product was impressive.",
-    author: "Client Name",
-    position: "CEO, Company",
+    author: "Sarah Johnson",
+    position: "CEO, TechVision Solutions",
     avatar: "/placeholder.svg"
   },
   {
     id: 2,
     quote: "Working with Zubair was a great experience. He is attentive to client needs and delivers high-quality Flutter applications on time and within budget.",
-    author: "Client Name",
-    position: "Startup Founder",
+    author: "Michael Chen",
+    position: "Founder, InnovateMobile",
     avatar: "/placeholder.svg"
   },
   {
     id: 3,
     quote: "The e-commerce app Zubair built for us has significantly improved our online presence. His technical skills and problem-solving abilities are top-notch.",
-    author: "Client Name",
-    position: "Marketing Director",
+    author: "Emily Rodriguez",
+    position: "Marketing Director, StyleCart Inc.",
     avatar: "/placeholder.svg"
   }
 ];
